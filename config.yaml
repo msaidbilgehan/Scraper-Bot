@@ -1,0 +1,24 @@
+# config.yaml
+
+# Use headless mode in browser automation
+headless: true
+
+# Scrolling settings
+max_scrolls: 1
+
+# Delay settings (in seconds)
+delay_url_load: 1.0
+delay_target_iteration: 0.5
+delay_scroll: 0.5
+
+zoom: 7
+
+# List of target locations and keywords
+keywords: ["AVM", "business", "OSB"]
+
+locations: [
+  "41.3976985,33.7469701",  # Kastamonu, Turkey
+  "41.0053702,28.6825439" # İstanbul, Turkey
+]
+
+output: "results.json"
