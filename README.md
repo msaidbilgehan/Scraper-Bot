@@ -1,6 +1,6 @@
-# Scraper-GMaps-Bot
+# Scraper-Bot
 
-**Scraper-GMaps-Bot** is a multi-threaded, automated scraper designed to extract business listings from Google Maps based on specified keywords and geolocations. Built with Selenium and Python, it enables scalable data collection with headless browser support and JSON export. License located [here](LICENSE).
+**Scraper-Bot** is a multi-threaded, automated scraper designed to extract business listings from Google Maps based on specified keywords and geolocations. Built with Selenium and Python, it enables scalable data collection with headless browser support and JSON export. License located [here](LICENSE).
 
 ---
 
@@ -19,7 +19,7 @@
 ## 🧱 Project Structure
 
 ``` shell
-Scraper-GMaps-Bot/
+Scraper-Bot/
 ├── config.yaml                  # Configuration file (keywords, locations, etc.)
 ├── main.py                      # Entry point of the application
 ├── paths.py                     # Logger path definitions
